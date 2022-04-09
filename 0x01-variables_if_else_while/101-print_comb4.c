@@ -1,0 +1,33 @@
+#include <stdio.h>
+/**
+* main - Entry point
+*
+* it excutes and prints it
+* Return: Always 0 (Success)
+*/
+int main(void)
+{
+int n, m, x;
+for (n = 48; n < 58; n++)
+{
+for (m = 49; m < 58; m++)
+{
+for (x = 50; x < 58; x++)
+{
+if (x > m && m > n)
+{
+putchar(n);
+putchar(m);
+putchar(x);
+if (n != 55 || m != 56)
+{
+putchar(',');
+putxhar(' ');
+}
+}
+}
+}
+}
+putchar('\n');
+return (0);
+}
